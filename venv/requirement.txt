@@ -1,0 +1,12 @@
+1. Create project nya menggunakan command berikut di folder nya
+conda create -p venv python==3.10 -y
+2. Dapatkan API KEY nya di API Studio Gemini
+3. Jalankan command conda activate venv
+4. Library yg digunakan diantaranya
+   streamlite
+   google generatativeai
+   python
+   langchain
+   PyPDF2
+   chromadb (untuk vector embeding)
+5. Jalankan programnya menggunakan streamlite run app.py   

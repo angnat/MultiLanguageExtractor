@@ -1,0 +1,13 @@
+prefix=/Users/anggapranata/machinelearning/Gemini Project/MultiLanguageExtractor/venv
+exec_prefix=/Users/anggapranata/machinelearning/Gemini Project/MultiLanguageExtractor/venv
+libdir=/Users/anggapranata/machinelearning/Gemini Project/MultiLanguageExtractor/venv/lib
+sharedlibdir=/Users/anggapranata/machinelearning/Gemini Project/MultiLanguageExtractor/venv/lib
+includedir=/Users/anggapranata/machinelearning/Gemini Project/MultiLanguageExtractor/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
